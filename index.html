@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam+Unjoined:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>St. Georges Preschool</title>
+    <link rel="icon" type="image/png" href="images/Logo.png" />
+  </head>
+
+  <body class="parallax">
+    <div class="navigation">
+      <img class="logoImg" src="images/Logo.png" alt="Logo" />
+
+      <div class="menu-btn">
+        <i id="open" class="fa-solid fa-bars"></i>
+        <i id="close" class="fa-solid fa-x hide"></i>
+      </div>
+      <ul id="item" class="menu_item slide">
+        <li><a href="#HomePage">HOME</a></li>
+        <li>
+          <a href="#aboutUsPage">ABOUT US</a
+          ><i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li><a href="#waitingList">WAITING LIST</a></li>
+        <li>
+          <a href="#enviromrnt">ENVIRONMENT</a
+          ><i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li><a href="#BlogPage">BLOG</a></li>
+        <li><a href="#contactUs_page">CONTACT US</a></li>
+      </ul>
+    </div>
+
+    <div class="HomePage parallax__group" id="HomePage">
+      <div class="back parallax__layer-1">
+        <div class="overlay">
+          <div class="overlay2"></div>
+        </div>
+      </div>
+
+      <div class="mid parallax__layer-2">
+        <h2>St. Georges Preschool</h2>
+        <p>
+          Where children learn to problem solve,<br />
+          develop independence and think creatively.
+        </p>
+        <div class="btn">
+          <a href="#" class="readMore">Read More</a>
+          <a href="#" class="contactUsBtn">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="mid4to parallax__layer-4">
+        <!-- <img class="img1" src="images/home_1-2.png" alt="" /> -->
+        <!-- <div class="img" id="img-1"></div>
+        <div class="img" id="img-2"></div> -->
+
+        <img
+          class="parallex-layer img1 parallax__layer-3"
+          id="img1"
+          src="images/home_2-3.png"
+          alt=""
+        />
+        <img
+          class="parallex-layer img2 parallax__layer-4"
+          id="img2"
+          src="images/home_3-3.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!-- AboutUs page -->
+
+    <div class="aboutUsPage" id="aboutUsPage">
+      <div class="about">
+        <div class="one">
+          <img src="" alt="" />
+        </div>
+        <div class="two">
+          <h2>Welcome To St. Georges Preschool</h2>
+          <h4>let us Introduce Ourselves</h4>
+          <p>
+            St George's Preschool is a small community based preschool in
+            Eastwood. In 2013 AND AGAIN IN 2018 we received a rating of
+            <b
+              >Exceeding the National Quality Standard in all Seven Quality
+              Areas</b
+            >, a great result! We accept children onto our waiting list from 2
+            years of age and they are able to attend the preschool from 3 years
+            of age (subject to a vacancy being available). We have a beautiful
+            indoor environment with calming tones and abundant natural light. We
+            also have a gorgeous outdoor environment full of exciting natural
+            spaces to explore.
+          </p>
+          <a class="readMore" href="#">Read More</a>
+        </div>
+      </div>
+      <div class="bgIcon">
+        <img class="duck" src="images/021-duck.png" alt="" />
+        <img class="rattle" src="images/029-rattle.png" alt="" />
+      </div>
+    </div>
+
+    <!-- waiting list page -->
+
+    <div class="waitingList" id="waitingList">
+      <div class="textArea">
+        <h2>Where We Stand</h2>
+        <h4>Our Standards</h4>
+        <p>
+          We are proudly rated as
+          <b>Exceeding the National Quality Standards</b> in all 7 areas.
+        </p>
+      </div>
+      <div class="cardArea">
+        <div class="card">
+          <div class="cardImg" id="cardImg-1"></div>
+          <div class="cardText">
+            <h3>Educational Program And Practice</h3>
+            <a class="readMore" href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardImg" id="cardImg-2"></div>
+          <div class="cardText">
+            <h3>Children’s Health And Safety</h3>
+            <a class="readMore" href="#">Read More</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardImg" id="cardImg-3"></div>
+          <div class="cardText">
+            <h3>Physical Environment</h3>
+            <a class="readMore" href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="bgIcon">
+        <img class="horse" src="images/012-rocking-horse.png" alt="" />
+        <img class="seesaw" src="images/001-seesaw.png" alt="" />
+        <img class="crayon" src="images/028-crayon.png" alt="" />
+        <img class="ball" src="images/018-ball-1.png" alt="" />
+      </div>
+    </div>
+
+    <div class="enviromrnt" id="enviromrnt">
+      <div class="content">
+        <div class="text">
+          <h2 class="pageMainText">What We Do</h2>
+          <h4>Our Basic Routine</h4>
+          <p>Here are some of the activities included in our basic routine</p>
+        </div>
+        <div class="list">
+          <div class="iconimage">
+            <div class="images"></div>
+            <div class="images"></div>
+            <div class="images"></div>
+            <div class="images"></div>
+            <div class="images"></div>
+            <div class="images"></div>
+            <div class="images"></div>
+            <div class="images"></div>
+          </div>
+
+          <div class="listText">
+            <h5>Indoor Activities</h5>
+            <h5>Outdoor Activities</h5>
+            <h5>Morning Tea</h5>
+            <h5>Group Time</h5>
+            <h5>Lunch</h5>
+            <h5>Quiet Activities On Carpet</h5>
+            <h5>Music Activities</h5>
+            <h5>Books On Carpet Area</h5>
+          </div>
+        </div>
+        <div class="btn">
+          <a class="readMore" href="#">Read More</a>
+        </div>
+      </div>
+      <div class="BG-1"></div>
+      <div class="BG-2"></div>
+
+      <div class="bgIcon">
+        <img class="duck" src="images/021-duck.png" alt="" />
+        <img class="rattle" src="images/029-rattle.png" alt="" />
+        <img class="rattle-1" src="images/024-rattle-1.png" alt="" />
+      </div>
+    </div>
+
+    <div class="BlogPage" id="BlogPage">
+      <div class="container">
+        <div class="textArea">
+          <h2>Latest News</h2>
+          <h4>News & Updates</h4>
+        </div>
+        <div class="cardArea">
+          <div class="card">
+            <div class="img-1 img" id="CardImg-1"></div>
+            <div class="text">
+              <h3>We are back for 2021!</h3>
+              <p>
+                We are really happy to be back at preschool for another year!
+              </p>
+            </div>
+            <div class="date">
+              <p>6 Feb. 2021</p>
+              <h6>
+                Read More
+                <i class="fa-solid fa-angle-right"></i>
+              </h6>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-2 img" id="CardImg-1"></div>
+            <div class="text">
+              <h3>We are closed for holidays!</h3>
+              <p>
+                We will be back on Thursday January 28th 2021. Happy Christmas
+                and New Year to Everyone
+              </p>
+            </div>
+            <div class="date">
+              <p>22 Dec. 2020</p>
+              <h6>
+                Read More
+                <i class="fa-solid fa-angle-right"></i>
+              </h6>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-3 img" id="CardImg-1"></div>
+            <div class="text">
+              <h3>Our social stories proved success!</h3>
+              <p>
+                We mailed out social stories to all children before they
+                returned to preschool after...
+              </p>
+            </div>
+            <div class="date">
+              <p>3 May 2020</p>
+              <h6>
+                Read More
+                <i class="fa-solid fa-angle-right"></i>
+              </h6>
+            </div>
+          </div>
+        </div>
+        <a href="" class="readMore">View All </a>
+      </div>
+      <div class="bgIcon">
+        <img class="tricycle" src="images/017-tricycle.png" alt="" />
+        <img class="drum" src="images/030-drum.png" alt="" />
+        <img class="cubes" src="images/039-cubes-2.png" alt="" />
+        <img class="horse5" src="images/012-rocking-horse.png" alt="" />
+      </div>
+    </div>
+
+    <div class="contactUs" id="contactUs_page">
+      <div class="container">
+        <div class="text">
+          <h2>Contact Us Now!</h2>
+          <h4>We Are Ready to Welcome Your Child</h4>
+          <p>
+            To place your child's name on our waiting list please download the
+            waiting list form from the "waiting list" tab above or call the
+            preschool or email us. <br /><br />
+            If you would like to take a look at the preschool, we generally show
+            people the preschool at 9.30am on a Friday morning (However, we are
+            currently not conducting preschool tours due to Covid 19
+            precautions). Please call us if you would like to visit
+          </p>
+        </div>
+        <div class="icon">
+          <div class="left">
+            <div class="Icontext">
+              <div><i class="fa-solid fa-phone"></i></div>
+              <div><h5>+61 9887 1281</h5></div>
+            </div>
+            <div class="Icontext">
+              <div><i class="fa-solid fa-envelope"></i></div>
+              <div><h5>pam@stgeorgespreschool.com.au</h5></div>
+            </div>
+          </div>
+          <div class="Icontext">
+            <div><i class="fa-solid fa-location-dot"></i></div>
+            <div><h5>100 Balaclava Road Eastwood 212</h5></div>
+          </div>
+        </div>
+        <div class="button">
+          <a href="#" class="readMore">Waiting List </a>
+          <a href="#" class="contactUsBtn">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="bgIcon">
+        <img class="seesaw-5" src="images/001-seesaw.png" alt="" />
+        <img class="rattle-5" src="images/024-rattle-2.png" alt="" />
+        <img class="ball-5" src="images/018-ball-1.png" alt="" />
+      </div>
+    </div>
+
+    <div class="footer" id="footer">
+      <div class="ftr_logo">
+        <img class="logoImg" src="images/Logo.png" alt="Logo" />
+      </div>
+      <div class="ftr_text">
+        <div class="icon">
+          <div class="left">
+            <div class="Icontext">
+              <div><i class="fa-solid fa-phone"></i></div>
+              <div><h5>+61 9887 1281</h5></div>
+            </div>
+            <div class="Icontext">
+              <div><i class="fa-solid fa-envelope"></i></div>
+              <div><h5>pam@stgeorgespreschool.com.au</h5></div>
+            </div>
+          </div>
+          <div class="Icontext">
+            <div><i class="fa-solid fa-location-dot"></i></div>
+            <div><h5>100 Balaclava Road Eastwood 212</h5></div>
+          </div>
+        </div>
+        <div class="copyright">
+          <h5>2023 by St. George's Preschool</h5>
+          <h5>Proudly created by Devs Melbourne</h5>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
